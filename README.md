@@ -29,7 +29,7 @@ dependencies {
 设置清空按钮颜色  
 `setClearButtonColor(int color)`  
 设置取消按钮颜色  
-`setCancelButtonColor(int color)` 
+`setCancelButtonColor(int color)`  
 设置输入框颜色  
 `setPointColor(int color)`  
 ## ___其他接口___ 
