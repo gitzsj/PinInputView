@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "点击取消按钮", Toast.LENGTH_SHORT).show();
             }
         });
-        pinInputView.setOnFullClick(new PinInputView.OnFullListener() {
+        pinInputView.setOnFullListener(new PinInputView.OnFullListener() {
             @Override
             public void OnFull(String vaule) {
                 Toast.makeText(MainActivity.this, "输入完成"+vaule, Toast.LENGTH_SHORT).show();
