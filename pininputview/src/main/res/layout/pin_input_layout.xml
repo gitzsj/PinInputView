@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/pointLayout"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp">
+
+        <ImageView
+            android:id="@+id/point1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="TODO"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            app:srcCompat="@drawable/anim_pin_input" />
+
+        <ImageView
+            android:id="@+id/point2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="TODO"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            app:srcCompat="@drawable/anim_pin_input" />
+
+        <ImageView
+            android:id="@+id/point3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="TODO"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            app:srcCompat="@drawable/anim_pin_input" />
+
+        <ImageView
+            android:id="@+id/point4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="TODO"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            app:srcCompat="@drawable/anim_pin_input" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/one"
+                android:layout_width="96dp"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:text="1"
+                android:textColor="@color/black"
+                android:background="?selectableItemBackgroundBorderless"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/two"
+                android:layout_width="96dp"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:text="2"
+                android:textColor="@color/black"
+                android:background="?selectableItemBackgroundBorderless"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/three"
+                android:layout_width="96dp"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:text="3"
+                android:textColor="@color/black"
+                android:background="?selectableItemBackgroundBorderless"
+                android:textSize="36sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/four"
+                android:layout_width="96dp"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:text="4"
+                android:textColor="@color/black"
+                android:background="?selectableItemBackgroundBorderless"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/five"
+                android:layout_width="96dp"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:text="5"
+                android:textColor="@color/black"
+                android:background="?selectableItemBackgroundBorderless"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/six"
+                android:layout_width="96dp"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:text="6"
+                android:textColor="@color/black"
+                android:background="?selectableItemBackgroundBorderless"
+                android:textSize="36sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/seven"
+                android:layout_width="96dp"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:text="7"
+                android:textColor="@color/black"
+                android:background="?selectableItemBackgroundBorderless"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/eight"
+                android:layout_width="96dp"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:text="8"
+                android:textColor="@color/black"
+                android:background="?selectableItemBackgroundBorderless"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/nine"
+                android:layout_width="96dp"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:text="9"
+                android:textColor="@color/black"
+                android:background="?selectableItemBackgroundBorderless"
+                android:textSize="36sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/clean"
+                android:layout_width="96dp"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:text="C"
+                android:textColor="@color/black"
+                android:background="?selectableItemBackgroundBorderless"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/zero"
+                android:layout_width="96dp"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:text="0"
+                android:textColor="@color/black"
+                android:background="?selectableItemBackgroundBorderless"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:background="?selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/anim_cancel_to_back" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
