@@ -237,7 +237,7 @@ public class PinInputView extends LinearLayout {
     public void setOnCancelClickListener(PinInputView.OnCancelClickListener  mListener){
         this.onCancelClickListener=mListener;
     }
-    public boolean setOnFullClick(OnFullListener mListener){
+    public boolean setOnFullListener(OnFullListener mListener){
         this.onFullListener = mListener;
         return false;
     }
