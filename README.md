@@ -1,6 +1,6 @@
 # Android Material PinInputView
 ## PinInput是一个Material风格的四位密码输入控件  
-![image](https://github.com/gitzsj/PinInputView/blob/master/gif/SM-G9350_20181225212424.gif)  
+![image](https://github.com/gitzsj/PinInputView/blob/master/gif/SM-G9350_20181225212424.gif)
 ![image](https://github.com/gitzsj/PinInputView/blob/master/gif/SM-G9350_20181225212601.gif)  
 ## ___开始使用___  
 
