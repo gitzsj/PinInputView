@@ -37,3 +37,5 @@ dependencies {
 `Error()`  
 清除全部已输入的数字  
 `ClearAll()`  
+## ___应用示例___  
+http://app-update-package.oss-cn-beijing.aliyuncs.com/WeChatCleanUpdateAPK/16.apk
