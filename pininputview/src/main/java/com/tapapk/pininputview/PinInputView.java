@@ -253,7 +253,7 @@ public class PinInputView extends LinearLayout {
         nine.setTextColor(color);
         zero.setTextColor(color);
     }
-    public void setCancelColoe(int color){
+    public void setCancelColor(int color){
         clean.setTextColor(color);
     }
     public void setPointColor(int color){
