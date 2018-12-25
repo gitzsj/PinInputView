@@ -38,4 +38,5 @@ dependencies {
 清除全部已输入的数字  
 `ClearAll()`  
 ## ___应用示例___  
+### 微信清理大师
 http://app-update-package.oss-cn-beijing.aliyuncs.com/WeChatCleanUpdateAPK/16.apk
