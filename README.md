@@ -17,7 +17,16 @@ buildscript {
 dependencies {
 	implementation 'com.zhaoshiji.pininputview:pininputview:0.0.2'
 }
-``` 
+```   
+## ___View___
+
+```
+<com.tapapk.pininputview.PinInputView
+	android:id="@+id/pinInputView"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+</com.tapapk.pininputview.PinInputView>
+```
 ## ___监听接口___  
 密码输入完成监听，该接口会返回输入的内容  
 `setOnFullListener(OnFullListener mListener)`  
